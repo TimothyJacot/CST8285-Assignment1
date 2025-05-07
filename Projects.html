@@ -1,0 +1,72 @@
+<!--creation of notable projects page-->
+<!DOCTYPE html>
+<html lang="en">
+    <!--start of header-->
+    <head>
+<meta charset="utf-8">
+<meta name="Web Programming Assignment 1" content="Assignment 1">
+<title>My Projects</title>
+<meta name="keywords" content="html, css, php, web development">
+<meta name="author" content="Timothy Jacot">
+<link rel="stylesheet" type="text/css" href="Stylesheet.css">
+</head> 
+<header id="header">Notable Projects</header>
+<!--start of body section of page-->
+<body>
+    <!--navigation links-->
+    <nav class="nav">
+        <a href="index.html" class="index">Index</a>
+        <a href="resume.html" class="resume">Resume</a>
+        <a href="Contact.html" class="contact">Contact</a>
+    </nav> 
+    <!--projects section starting-->
+    <section id="projects">
+        <!--first project div-->
+        <div class="project-container">
+            <div class="project" id="project1">
+                <!--project 1-->
+                <h2>CST8116 Assignment 2</h2>
+                <p><strong>Date of Completion:</strong> December 2024</p>
+                <p><strong>Programming Languages Used:</strong>Java</p>
+                <p><strong>Description:</strong> This Object Oriented Java program uses certain Java API's to demand user input from the user, 
+                    and creates specific outputs based on the input given, using boolean statements and if methods.
+                </p>
+                <img src="webprogramming1.png" alt="projectcode" width="350">
+            </div>
+            <div class="project" id="project2">
+                <!--project 2-->
+                <h2>Database Systems Assignment</h2>
+                <p><strong>Date of Completion:</strong>February 2025</p>
+                <p><strong>Programming Languages / Technologies Used:</strong>SQL, MS Access, SSMS</p>
+                <p><strong>Description:</strong>This database project incorporates relational database managements system skills, 
+                    while demanding the group to insert values and create forms and reports based on the data that has been inserted.</p>
+                <img src="SSMS_Model.png" alt="relationshipscreeenshot" width="500">
+            </div>
+            <div class="project" id="project3">
+                <!--project 3-->
+                <h2>Web Programming Lab 3</h2>
+                <p><strong>Date of Completion:</strong>January 2025</p>
+                <p><strong>Programming Languages Used:</strong>HTML, CS, JavaScript</p>
+                <p><strong>Description:</strong>This is my third lab from my web programming class, where we use interactive CSS and JavaScript tags to 
+                make the webpage interactive and accessible through hyperlinks and in-page links.</p>
+                <img src="webprogramming2.png" alt="lab3screenshot" height="300">
+            </div>
+            <div class="project" id="project4">
+                <!--project 4-->
+                <h2>Web Programming Lab 2</h2>
+                <p><strong>Date of Completion:</strong>January 2025</p>
+                <p><strong>Programming Languages Used:</strong>HTML, CSS</p>
+                <p><strong>Description:</strong>Starting to work on forms and input types during this lab session, while also incorporating CSS to add style and
+                vibrancy to our webpage.</p>
+                <img src="webprogramming3.png" alt="lab2screenshot" height="300">
+            </div>
+        </div>
+        <!-- javascript navigation for each project, previous and nexdt buttons-->
+        <div class="navigation">
+            <button id="previous" onclick="prevProject()">Previous</button>
+            <button id="next" onclick="nextProject()">Next</button>
+        </div>
+    </section>
+    <script src="projects.js"></script>
+</body>
+</html>
